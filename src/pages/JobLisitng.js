@@ -69,7 +69,7 @@ const JobListing = () => {
         ))}
       </div>
 
-      {/* Job Details Modal */}
+      {}
       {selectedJob && (
         <div
           className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center modal-background"
@@ -97,7 +97,7 @@ const JobListing = () => {
         </div>
       )}
 
-      {/* Apply Modal */}
+      {}
       {showApplyModal && (
         <div
           className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center modal-background"
